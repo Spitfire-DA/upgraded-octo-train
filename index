@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>San Antonio Local Spots</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f8f8f8;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .restaurant {
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+        .restaurant h2 {
+            margin-top: 0;
+            color: #007bff;
+        }
+        .restaurant p {
+            margin: 5px 0;
+        }
+        .restaurant a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .restaurant a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>San Antonio Local Spots</h1>
+
+        <!-- Restaurant Listings -->
+        <div class="restaurant">
+            <h2>Cappy's Restaurant</h2>
+            <p><strong>Area of Town:</strong> Alamo Heights</p>
+            <p><strong>Type:</strong> Upscale American</p>
+            <p><strong>Google Reviews:</strong> 4.6</p>
+            <p><strong>Cost per person:</strong> $30-50</p>
+            <p><strong>Website:</strong> <a href="http://cappysrestaurant.com" target="_blank">cappysrestaurant.com</a></p>
+        </div>
+
+        <div class="restaurant">
+            <h2>Fleming’s Prime Steakhouse & Wine Bar</h2>
+            <p><strong>Area of Town:</strong> Alamo Quarry</p>
+            <p><strong>Type:</strong> High-end Steakhouse</p>
+            <p><strong>Google Reviews:</strong> 4.5</p>
+            <p><strong>Cost per person:</strong> $50-100</p>
+            <p><strong>Website:</strong> <a href="http://flemingssteakhouse.com" target="_blank">flemingssteakhouse.com</a></p>
+        </div>
+
+        <div class="restaurant">
+            <h2>Two Bros. BBQ Market</h2>
+            <p><strong>Area of Town:</strong> Castle Hills</p>
+            <p><strong>Type:</strong> Casual BBQ</p>
+            <p><strong>Google Reviews:</strong> 4.2</p>
+            <p><strong>Cost per person:</strong> $10–20</p>
+            <p><strong>Website:</strong> <a href="http://twobrosbbqmarket.com" target="_blank">twobrosbbqmarket.com</a></p>
+        </div>
+
+        <div class="restaurant">
+            <h2>The Moon's Daughters</h2>
+            <p><strong>Area of Town:</strong> Downtown</p>
+            <p><strong>Type:</strong> High-end Bar & Bites</p>
+            <p><strong>Google Reviews:</strong> 4.4</p>
+            <p><strong>Cost per person:</strong> $30-50</p>
+            <p><strong>Website:</strong> <a href="https://themoonsdaughters.com/" target="_blank">themoonsdaughters.com</a></p>
+            <p><strong>Notes:</strong> Cashless</p>
+        </div>
+
+        <div class="restaurant">
+            <h2>Silo Prime</h2>
+            <p><strong>Area of Town:</strong> Downtown</p>
+            <p><strong>Type:</strong> Modern Steakhouse</p>
+            <p><strong>Google Reviews:</strong> 4.7</p>
+            <p><strong>Cost per person:</strong> $50-100</p>
+            <p><strong>Website:</strong> <a href="http://siloelevatedcuisine.com" target="_blank">siloelevatedcuisine.com</a></p>
+        </div>
+
+        <div class="restaurant">
+            <h2>Maverick Texas Brasserie</h2>
+            <p><strong>Area of Town:</strong> Downtown</p>
+            <p><strong>Type:</strong> A Texas Brasserie with a French Influence</p>
+            <p><strong>Google Reviews:</strong> 4.5</p>
+            <p><strong>Cost per person:</strong> $50-100</p>
+            <p><strong>Website:</strong> <a href="http://mavericktexas.com" target="_blank">mavericktexas.com</a></p>
+        </div>
+
+        <div class="restaurant">
+            <h2>Acenar Mexican Restaurant</h2>
+            <p><strong>Area of Town:</strong> Downtown</p>
+            <p><strong>Type:</strong> Mexican food</p>
+            <p><strong>Google Reviews:</strong> 4.2</p>
+            <p><strong>Cost per person:</strong> $20-30</p>
+            <p><strong>Website:</strong> <a href="http://acenar.com" target="_blank">acenar.com</a></p>
+        </div>
+
+        <div class="restaurant">
+            <h2>Biga on the banks</h2>
+            <p><strong>Area of Town:</strong> Downtown Riverwalk</p>
+            <p><strong>Type:</strong> New American cuisine</p>
+            <p><strong>Google Reviews:</strong> 4.6</p>
+            <p><strong>Cost per person:</strong> $50-100</p>
+            <p><strong>Website:</strong> <a href="http://biga.com" target="_blank">biga.com</a></p>
+        </div>
+
+        <div class="restaurant">
+            <h2>Bliss</h2>
+            <p><strong>Area of Town:</strong> Downtown-Southtown</p>
+            <p><strong>Type:</strong> New American fare, charcuterie, wine & beer</p>
+            <p><strong>Google Reviews:</strong> 4.8</p>
+            <p><strong>Cost per person:</strong> $50-100</p>
+            <p><strong>Website:</strong> <a href="http://foodisbliss.com" target="_blank">foodisbliss.com</a></p>
+        </div>
+
+        <div class="restaurant">
+            <h2>Chart House</h2>
+            <p><strong>Area of Town:</strong> Downtown-Tower of Americas</p>
+            <p><strong>Type:</strong> High-end Seafood & Steakhouse</p>
+            <p><strong>Google Reviews:</strong> 4.1</p>
+            <p><strong>Cost per person:</strong> $50-100</p>
+            <p><strong>Website:</strong> <a href="http://chart-house.com" target="_blank">chart-house.com</a></p>
+        </div>
+
+        <div class="restaurant">
+            <h2>Smoke Shack</h2>
+            <p><strong>Area of Town:</strong> Downtown-Broadway</p>
+            <p><strong>Type:</strong> Casual BBQ</p>
+            <p><strong>Google Reviews:</strong> 4.3</p>
+            <p><strong>Cost per person:</strong> $10–20</p>
+            <p><strong>Website:</strong> <a href="http://smokeshacksa.com" target="_blank">smokeshacksa.com</a></p>
+        </div>
+
+        <div class="restaurant">
+            <h2>The Pita Chick</h2>
+            <p><strong>Area of Town:</strong> Food Truck/North Central</p>
+            <p><strong>Type:</strong> Mediterranean Food</p>
+            <p><strong>Google Reviews:</strong> 4.9</p>
+            <p><strong>Cost per person:</strong> $10-20</p>
+            <p><strong>Website:</strong> <a href="https://thepitachick.com/" target="_blank">thepitachick.com</a></p>
+            <p><strong>Notes:</strong> Doordash</p>
+        </div>
+
+        <div class="restaurant">
+            <h2>Couples Catering Co</h2>
+            <p><strong>Area of Town:</strong> Food Truck/North Central</p>
+            <p><strong>Type:</strong> American & Tex-Mex</p>
+            <p><strong>Google Reviews:</strong> 5.0</
+	</div>
+
+<div class="restaurant">
+    <h2>Signature</h2>
+    <p><strong>Area of Town:</strong> La Cantera</p>
+    <p><strong>Type:</strong> Fine Dining</p>
+    <p><strong>Google Reviews:</strong> 4.7</p>
+    <p><strong>Cost per person:</strong> $100+</p>
+    <p><strong>Website:</strong> <a href="http://signaturerestaurant.com" target="_blank">signaturerestaurant.com</a></p>
+</div>
+
+<div class="restaurant">
+    <h2>Whiskey Cake</h2>
+    <p><strong>Area of Town:</strong> La Cantera</p>
+    <p><strong>Type:</strong> Whiskey cocktails & farm fresh American dishes</p>
+    <p><strong>Google Reviews:</strong> 4.5</p>
+    <p><strong>Cost per person:</strong> $20-30</p>
+    <p><strong>Website:</strong> <a href="https://whiskeycake.com/" target="_blank">whiskeycake.com</a></p>
+</div>
+
+<div class="restaurant">
+    <h2>Perry's Steakhouse & Grille</h2>
+    <p><strong>Area of Town:</strong> La Cantera</p>
+    <p><strong>Type:</strong> High-end Seafood & Steakhouse</p>
+    <p><strong>Google Reviews:</strong> 4.6</p>
+    <p><strong>Cost per person:</strong> $50-100</p>
+    <p><strong>Website:</strong> <a href="https://perryssteakhouse.com/" target="_blank">perryssteakhouse.com</a></p>
+</div>
+
+<div class="restaurant">
+    <h2>Clementine</h2>
+    <p><strong>Area of Town:</strong> North Central</p>
+    <p><strong>Type:</strong> Neighborhood restaurant serving seasonal eats inspired by global flavors.</p>
+    <p><strong>Google Reviews:</strong> 4.7</p>
+    <p><strong>Cost per person:</strong> $100+</p>
+    <p><strong>Website:</strong> <a href="http://clementine-sa.com" target="_blank">clementine-sa.com</a></p>
+</div>
+
+<div class="restaurant">
+    <h2>Silo Elevated Cuisine 1604</h2>
+    <p><strong>Area of Town:</strong> Stone Oak</p>
+    <p><strong>Type:</strong> Elevated bistro with inspired New American fare</p>
+    <p><strong>Google Reviews:</strong> 4.6</p>
+    <p><strong>Cost per person:</strong> $50-100</p>
+    <p><strong>Website:</strong> <a href="http://siloelevatedcuisine.com" target="_blank">siloelevatedcuisine.com</a></p>
+</div>
+
+<div class="restaurant">
+    <h2>Eddie V's Prime Seafood</h2>
+    <p><strong>Area of Town:</strong> Stone Oak</p>
+    <p><strong>Type:</strong> High-end Seafood & Steakhouse</p>
+    <p><strong>Google Reviews:</strong> 4.7</p>
+    <p><strong>Cost per person:</strong> $100+</p>
+    <p><strong>Website:</strong> <a href="https://eddiev.com/" target="_blank">eddiev.com</a></p>
+</div>
+
+<div class="restaurant">
+    <h2>Silo Terrence Oyster Bar</h2>
+    <p><strong>Area of Town:</strong> The Dominion</p>
+    <p><strong>Type:</strong> High-end Seafood</p>
+    <p><strong>Google Reviews:</strong> 4.6</p>
+    <p><strong>Cost per person:</strong> $50-100</p>
+    <p><strong>Website:</strong> <a hre
+</div>
+
+<div class="restaurant">
+    <h2>Cured</h2>
+    <p><strong>Area of Town:</strong> The Pearl</p>
+    <p><strong>Type:</strong> Charcuterie-focused New American cuisine & craft cocktails.</p>
+    <p><strong>Google Reviews:</strong> 4.5</p>
+    <p><strong>Cost per person:</strong> $50-100</p>
+    <p><strong>Website:</strong> <a href="https://www.curedatpearl.com/" target="_blank">curedatpearl.com</a></p>
+</div>
+
+<div class="restaurant">
+    <h2>Down on Grayson</h2>
+    <p><strong>Area of Town:</strong> The Pearl</p>
+    <p><strong>Type:</strong> American Eatery</p>
+    <p><strong>Google Reviews:</strong> 4.4</p>
+    <p><strong>Cost per person:</strong> $20-30</p>
+    <p><strong>Website:</strong> <a href="https://www.downongrayson.com/" target="_blank">downongrayson.com</a></p>
+</div>
+
+<div class="restaurant">
+    <h2>Carriqui</h2>
+    <p><strong>Area of Town:</strong> The Pearl</p>
+    <p><strong>Type:</strong> South Texas Food & Drink</p>
+    <p><strong>Google Reviews:</strong> 4.6</p>
+    <p><strong>Cost per person:</strong> $30-50</p>
+    <p><strong>Website:</strong> <a href="https://carriquitx.com/" target="_blank">carriquitx.com</a></p>
+    <p><strong>Notes:</strong> Serves vegetarian dishes</p>
+</div>
+
+<div class="restaurant">
+    <h2>Botika</h2>
+    <p><strong>Area of Town:</strong> The Pearl</p>
+    <p><strong>Type:</strong> Peruvian-Asian Fusion</p>
+    <p><strong>Google Reviews:</strong> 4.1</p>
+    <p><strong>Cost per person:</strong> $20-30</p>
+    <p><strong>Website:</strong> <a href="https://botikapearl.com/" target="_blank">botikapearl.com</a></p>
+</div>
+
+<div class="restaurant">
+    <h2>Sam's Burger Joint</h2>
+    <p><strong>Area of Town:</strong> The Pearl</p>
+    <p><strong>Type:</strong> Burgers & live music</p>
+    <p><strong>Google Reviews:</strong> 4.3</p>
+    <p><strong>Cost per person:</strong> $10-20</p>
+    <p><strong>Website:</strong> <a href="https://samsburgerjoint.com/#" target="_blank">samsburgerjoint.com</a></p>
+    <p><strong>Notes:</strong> Live music venue</p>
+</div>
+
+<div class="restaurant">
+    <h2>Bakery Lorraine</h2>
+    <p><strong>Area of Town:</strong> The Pearl</p>
+    <p><strong>Type:</strong> Classic French Pastries</p>
+    <p><strong>Google Reviews:</strong> 4.4</p>
+    <p><strong>Cost per person:</strong> $10-20</p>
+    <p><strong>Website:</strong> <a href="https://bakerylorraine.com/" target="_blank">bakerylorraine.com</a></p>
+</div>
+
+<div class="restaurant">
+    <h2>Best Quality Daughter</h2>
+    <p><strong>Area of Town:</strong> The Pearl</p>
+    <p><strong>Type:</strong> New Asian-American Cuisine</p>
+    <p><strong>Google Reviews:</strong> 4.5</p>
+    <p><strong>Cost per person:</strong> $20-30</p>
+    <p><strong>Website:</strong> <a href="https://www.bestqualitydaughter.com/" target="_blank">bestqualitydaughter.com</a></p>
+</div>
+
+<div class="restaurant">
+    <h2>Savor</h2>
+    <p><strong>Area of Town:</strong> The Pearl</p>
+    <p><strong>Type:</strong> Culinary Institute of America Student Restaurant</p>
+    <p><strong>Google Reviews:</strong> 4.8</p>
+    <p><strong>Cost per person:</strong> $50-100</p>
+    <p><strong>Website:</strong> <a href="https://www.savorcia.com/" target="_blank">savorcia.com</a></p>
+</div>
+
+<div class="restaurant">
+    <h2>Wonderslice</h2>
+    <p><strong>Area of Town:</strong> The Pearl</p>
+    <p><strong>Type:</strong> Neighborhood Pizza Joint</p>
+    <p><strong>Google Reviews:</strong> 4.2</p>
+    <p><strong>Cost per person:</strong> $10-20</p>
+    <p><strong>Website:</strong> <a href="https://www.wonderslicepizza.com/" target="_blank">wonderslicepizza.com</a></p>
+</div>
+
+<div class="restaurant">
+    <h2>La Gloria</h2>
+    <p><strong>Area of Town:</strong> The Pearl</p>
+    <p><strong>Type:</strong> Mexican Street Food</p>
+    <p><strong>Google Reviews:</strong> 4</p>
+    <p><strong>Cost per person:</strong> $10-20</p>
+    <p><strong>Website:</strong> <a href="https://chefjohnnyhernandez.com/la-gloria-pearl/" target="_blank">chefjohnnyhernandez.com/la-gloria-pearl</a></p>
+    <p><strong>Notes:</strong> Chef Johnny Hernandez</p>
+</div>
+
+<div class="restaurant">
+    <h2>Allora</h2>
+    <p><strong>Area of Town:</strong> The Pearl</p>
+    <p><strong>Type:</strong> Modern Coastal Italian</p>
+    <p><strong>Google Reviews:</strong> 4</p>
+    <p><strong>Cost per person:</strong> $50-100</p>
+    <p><strong>Website:</strong> <a href="https://allorapearl.com/" target="_blank">allorapearl.com</a></p>
+</div>
+
+<div class="restaurant">
+    <h2>Brasserie Mon Chou Chou</h2>
+    <p><strong>Area of Town:</strong> The Pearl</p>
+    <p><strong>Type:</strong> French comfort food</p>
+    <p><strong>Google Reviews:</strong> 4.5</p>
+    <p><strong>Cost per person:</strong> $50-100</p>
+    <p><strong>Website:</strong> <a href="https://www.brasseriemonchouchou.com/" target="_blank">brasseriemonchouchou.com</a></p>
+</div>
+
+<div class="restaurant">
+    <h2>Sternewirth</h2>
+    <p><strong>Area of Town:</strong> The Pearl @ Hotel Emma</p>
+    <p><strong>Type:</strong> Tavern and Club room</p>
+    <p><strong>Google Reviews:</strong> 4.7</p>
+    <p><strong>Cost per person:</strong> $30-50</p>
+    <p><strong>Website:</strong> <a href="https://thehotelemma.com/culinary/sternewirth/" target="_blank">thehotelemma.com/culinary/sternewirth</a></p>
+</div>
+
+<div class="restaurant">
+    <h2>Supper</h2>
+    <p><strong>Area of Town:</strong> The Pearl @ Hotel Emma</p>
+    <p><strong>Type:</strong> American Eatery</p>
+    <p><strong>Google Reviews:</strong> 4.5</p>
+    <p><strong>Cost per person:</strong> $50-100</p>
+    <p><strong>Website:</strong> <a href="https://atpearl.com/operator/supper/" target="_blank">atpearl.com/operator/supper</a></p>
+</div>
+
+<div class="restaurant">
+    <h2>Burgerteca</h2>
+    <p><strong>Area of Town:</strong> Southtown-Downtown</p>
+    <p><strong>Type:</strong> Mexican-inspired burgers</p>
+    <p><strong>Google Reviews:</strong> 4.4</p>
+    <p><strong>Cost per person:</strong> $10-20</p>
+    <p><strong>Website:</strong> <a href="https://chefjohnnyhernandez.com/burgerteca/" target="_blank">chefjohnnyhernandez.com/burgerteca</a></p>
+    <p><strong>Notes:</strong> Chef Johnny Hernandez</p>
+</div>
